@@ -9,11 +9,8 @@ if plus - minus < 0:
         print('Фирма отработала с убытком: ', result)
 else:
         print("Фирма отработала с прибылью: ", result)
-
-if result > 0:
-        procent_result = result / plus * 100
-        print('Соотношение прибыли к выручке: ', procent_result)
-
-people = int(input('Введите количество сотрудников: '))
-plus_result = result // people
-print('Прибыль фирмы на каждого сотрудника составляет: ', plus_result)
+        viruchka_result = result / plus * 100
+        print('Соотношение прибыли к выручке: ', viruchka_result)
+        people = int(input('Введите количество сотрудников: '))
+        plus_result = result // people
+        print('Прибыль фирмы на каждого сотрудника составляет: ', plus_result)
