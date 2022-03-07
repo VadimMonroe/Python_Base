@@ -1,0 +1,1 @@
+print([i for i in range(20, 241) if i / 20 == i // 20 or i / 21 == i // 21])
